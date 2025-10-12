@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+    <title> Fashynell's games </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  
+  <body style="background-color: #421f4e; overflow-x: hidden;">
+    
+    <p class="Title_text" style="font-weight: bold;">{{ error_id }}</p>
+    <p class="Subtitle_text">{{ error_text }}</p>
+    <br><br>
+    <p class="Subtitle_text">
+      <a href="{{ url_for('reset') }}" style="color: white;">Return to the website</a>
+    </p>
+ </body>
+  
+</html>

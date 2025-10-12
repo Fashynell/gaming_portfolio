@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+    <title> Fashynell's games </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  
+  <body style="background-color: #421f4e; overflow-x: hidden;">
+    
+    <p class="Title_text" id="top" style="font-weight: bold;">Fashynell's Gaming Portfolio</p>
+    <p class="Subtitle_text">Hello there.<br><br>I decided to make a website to track all video games I have ever played, 
+        mainly because other video game portfolio websites don't include a few features I wanted.<br>
+        And because websites are just kinda fun to make from scratch.<br>Feel free to dm me on discord to discuss or argue about any game here.</p>
+    <br><br><br><br>
+
+    <div class="All_buttons_holder">
+      <div class="Left_buttons_holder">
+        <div class="Buttons_text">Group by:</div>
+        <div></div>
+        <form action={{ url_for("games") }} method="POST" onsubmit="syncSearch(this)">
+          <div class="Group_sort_buttons_holder">
+            <input type="hidden" name="search" value="">
+            {% for group in group_sort_list %}
+              {% if group == group_by %}
+                <button class="Group_sort_button" name="group_by" style="border: .25rem solid #62D1F0;" value={{ group }}>{{ group }}</button>
+              {% else %}
+                <button class="Group_sort_button" name="group_by" style="border: .25rem solid #555555;" value={{ group }}>{{ group }}</button>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </form>
+        <form action={{ url_for("games") }} method="POST" onsubmit="syncSearch(this)">
+          <div class="Order_buttons_holder">
+            <input type="hidden" name="search" value="">
+            {% if group_order == "asc" %}
+              <button class="Asc_order_button" name="group_order" style="border: .25rem solid #62D1F0;" value="asc">&#9652;</button>
+            {% else %}
+              <button class="Asc_order_button" name="group_order" style="border: .25rem solid #555555;" value="asc">&#9652;</button>
+            {% endif %}
+            {% if group_order == "desc" %}
+              <button class="Desc_order_button" name="group_order" style="border: .25rem solid #62D1F0;" value="desc">&#9662;</button>
+            {% else %}
+              <button class="Desc_order_button" name="group_order" style="border: .25rem solid #555555;" value="desc">&#9662;</button>
+            {% endif %}
+          </div>
+        </form>
+      </div>
+
+      <div class="Middle_buttons_holder">
+        <div class="Buttons_text">Included platforms:</div>
+        <form action={{ url_for("games") }} method="POST" onsubmit="syncSearch(this)">
+          <div class="Platform_buttons_holder">
+            <input type="hidden" name="search" value="">
+            {% for platform in platform_list %}
+              {% if platform in selected_platforms %}
+                <button class="Group_sort_button" name="platform" style="border: .25rem solid #62D1F0;" value={{ platform }}>{{ platform }}</button>
+              {% else %}
+                <button class="Group_sort_button" name="platform" style="border: .25rem solid #555555;" value={{ platform }}>{{ platform }}</button>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </form>
+      </div>
+
+      <div class="Right_buttons_holder">
+        <div></div>
+        <div class="Buttons_text">Sort by:</div>
+        <form action={{ url_for("games") }} method="POST" onsubmit="syncSearch(this)">
+          <div class="Order_buttons_holder">
+            <input type="hidden" name="search" value="">
+            {% if sort_order == "asc" %}
+              <button class="Asc_order_button" name="sort_order" style="border: .25rem solid #62D1F0;" value="asc">&#9652;</button>
+            {% else %}
+              <button class="Asc_order_button" name="sort_order" style="border: .25rem solid #555555;" value="asc">&#9652;</button>
+            {% endif %}
+            {% if sort_order == "desc" %}
+              <button class="Desc_order_button" name="sort_order" style="border: .25rem solid #62D1F0;" value="desc">&#9662;</button>
+            {% else %}
+              <button class="Desc_order_button" name="sort_order" style="border: .25rem solid #555555;" value="desc">&#9662;</button>
+            {% endif %}
+          </div>
+        </form>
+        <form action={{ url_for("games") }} method="POST" onsubmit="syncSearch(this)">
+          <div class="Group_sort_buttons_holder">
+            <input type="hidden" name="search" value="">
+            {% for sort in group_sort_list %}
+              {% if sort == sort_by %}
+                <button class="Group_sort_button" name="sort_by" style="border: .25rem solid #62D1F0;" value={{ sort }}>{{ sort }}</button>
+              {% else %}
+                <button class="Group_sort_button" name="sort_by" style="border: .25rem solid #555555;" value={{ sort }}>{{ sort }}</button>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </form>
+      </div>
+    </div>
+    <br>
+
+    <div class="All_buttons_holder" style="height: 3rem;">
+      <form action={{ url_for("games") }} method="POST" style="display: contents;" onsubmit="syncSearch(this)">
+        <input type="hidden" name="search" value="">
+        <button class="Search_button" name="erase_search" value="erase">X</button>
+      </form>
+      <form action={{ url_for("games") }} method="POST" style="display: contents;">
+        <input class="Search_bar" type="search" id="searchbar" name="search" placeholder="Search..." value="{{ search }}">
+        <button class="Search_button">Search</button>
+      </form>
+    </div>
+    <br>
+    
+    <div class="Sticky_top">
+      <div class="Top_side_column" style="margin-right: -2%;"></div>
+      <div class="Game_row">
+        <div class="Top_game_column" style="width: 21%;">Title 
+          <span class="tooltip">i
+            <span class="tooltiptext">"Title" is the title of the specified game.<br><br>
+                                      If there are multiple games in a series that I have similar opinions about or I can't distinguish them much, 
+                                      they are listed in the format of: Series title (games in the series I have played).<br><br>
+                                      Note that not all games I have ever played are in this list. 
+                                      A lot of Browser and Mobile games are too insignificant to even include, 
+                                      and some of them I may not have remembered or been able to find again.</span>
+          </span> 
+        </div>
+
+        <div class="Top_game_column" style="width: 9%;">Playtime
+          <span class="tooltip">i
+            <span class="tooltiptext">"Playtime" is the estimated amount of time I have spent playing the game.<br><br>
+                                      Some of these numbers are inflated due to being AFK,  
+                                      and others are inaccurate due to not being able to track their playtime.</span>
+          </span> 
+        </div>
+
+        <div class="Top_game_column" style="width: 10%;">Completion
+          <span class="tooltip">i
+            <span class="tooltiptext">"Completion" is what state the game is in for me, or how much of it I have completed.<br><br>
+                                      100% - I have done everything in the game, meaning either all achievements or what I deem to be everything.<br><br>
+                                      99% - I have done almost everything in the game, except for something specified in the notes.<br><br>
+                                      Finished - I have completed the game, but not much more.<br><br>
+                                      Unfinished - I have not beaten the game, but I intend to do so.<br><br>
+                                      Dropped - I have not beaten the game, and I don't intend on finishing it.<br><br>
+                                      N/A - The game does not particularly have an end, or cannot really be "completed".</span>
+          </span> 
+        </div>
+
+        <div class="Top_game_column" style="width: 8.5%;">Platform
+          <span class="tooltip">i
+            <span class="tooltiptext">"Platform" is the gaming platform/console that I have played the game on.<br><br>
+                                      If multiple, they are in order of how much I have played the game on.</span>
+          </span> 
+        </div>
+
+        <div class="Top_game_column" style="width: 6%;">DLC
+          <span class="tooltip">i
+            <span class="tooltiptext">"DLC" says if I have played the games' DLC or not.<br><br>
+                                      Yes - I have played all DLC.<br><br>
+                                      Other - I have played the specified DLC, but not all.<br><br>
+                                      No - I have not played any DLC.<br><br>
+                                      N/A - The game does not have any DLC (cosmetics or additional items don't count as DLC).</span>
+          </span> 
+        </div>
+        <div class="Top_game_column" style="width: 7%;">Rating
+          <span class="tooltip">i
+            <span class="tooltiptext">"Rating" is my personal opinion of how much I enjoy the game, ranked from 0 to 10.</span>
+          </span> 
+        </div>
+
+        <div class="Top_game_column" style="width: 38.5%;">Notes
+          <span class="tooltip">i
+            <span class="tooltiptext">"Notes" contains a short explanation, some opinions, or additional information about the game.</span>
+          </span> 
+        </div>
+      </div>
+      <div class="Top_side_column" style="margin-left: -2%;"></div>
+    </div>
+    
+    
+    <div class="Navigation_items_holder">
+      <div class="Navigation_item" style="border-bottom: none; color: #1E1E1E;">:D</div>
+      <div class="Navigation_item"><a href="#top">TOP</a></div>
+      {% for group_name, group_games in completed_list.items() %}
+        {% if group_games | length != 0 %}
+          <div class="Navigation_item">
+            <a href="#{{ group_name }}">{{ group_name }}</a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      <div class="Navigation_item" style="border-bottom-width: .2rem; border-radius: 0px 0px 15px 15px;"><a href="#bottom">BOTTOM</a></div>
+    </div>
+    
+
+    <div>
+      {% for group_name, group_games in completed_list.items() %}
+        <br><br><br><br>
+        <div class="Group_line"></div>
+        {% if group_name != "All games" %}
+          <p class="Group_mini_text">{{ group_by ~ ":" }}</p>
+          <p class="Group_text" id="{{ group_name }}">{{ group_name }}</p>
+          <p class="Group_mini_text">{{ "Games: " ~ group_games | length ~ "x" }}</p>
+        {% else %}
+          {% if group_games | length == 0 %}
+            <br>
+            <p class="Group_text">No games found</p>
+            <p class="Group_mini_text">Try again with other filters</p>
+          {% else %}
+            <p class="Group_mini_text">No grouping:</p>
+            <p class="Group_text" id="{{ group_name }}">{{ group_name }}</p>
+            <p class="Group_mini_text">{{ "Games: " ~ group_games | length ~ "x" }}</p>
+          {% endif %}
+        {% endif %}
+        <br>
+
+        {% for game in group_games %}
+          <div class="Game_row">
+            {% if loop.first and loop.last %}
+              <div class="Game_column Column_solo_left" style="width: 21%; font-weight: bold;">{{ game["title"] }}</div>
+            {% elif loop.first %}
+              <div class="Game_column Column_up_left" style="width: 21%; font-weight: bold;">{{ game["title"] }}</div>
+            {% elif loop.last %}
+              <div class="Game_column Column_down_left" style="width: 21%; font-weight: bold;">{{ game["title"] }}</div>
+            {% else %}
+              <div class="Game_column" style="width: 21%; font-weight: bold;">{{ game["title"] }}</div>
+            {% endif %}
+
+            <div class="Game_column" style="width: 9%;">{{ game["playtime"] }}</div>
+            <div class="Game_column" style="width: 10%;" data-completion="{{ game['completion'] }}">{{ game["completion"] }}</div>
+
+            <div class="Game_column" style="width: 8.5%;">
+              <div class="Platform_column">
+              {% for platform in game.platform.split(" & ") %}
+                <div>
+                  <span class="Platform" data-platform="{{ platform }}">{{ platform }}</span>
+                  {% if not loop.last %}
+                    <span>&</span>
+                  {% endif %}
+                </div>
+              {% endfor %}
+              </div>
+            </div>
+
+            <div class="Game_column" style="width: 6%; color: #FDD835;" data-dlc="{{ game['dlc'] }}">{{ game["dlc"] }}</div>
+            <div class="Game_column" style="width: 7%; font-weight: bold;" data-rating="{{ game['rating'] }}">{{ game["rating"] }}</div>
+
+            {% if loop.first and loop.last %}
+              <div class="Game_column Column_solo_right" style="width: 38.5%;">{{ game["extra_info"] }}</div>
+            {% elif loop.first %}
+              <div class="Game_column Column_up_right" style="width: 38.5%;">{{ game["extra_info"] }}</div>
+            {% elif loop.last %}
+              <div class="Game_column Column_down_right" style="width: 38.5%;">{{ game["extra_info"] }}</div>
+            {% else %}
+              <div class="Game_column" style="width: 38.5%;">{{ game["extra_info"] }}</div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% else %}
+        <br><br><br><br>
+        <div class="Group_line"></div>
+        <br>
+        <p class="Group_text" id="No games found">No games found</p>
+        <p class="Group_mini_text">Try again with other filters</p>
+        <br>
+      {% endfor %}
+    </div>
+
+    <br><br><br><br>
+    <div class="Group_line"></div>
+    <br><br><br><br>
+    <div class="Bottom_section">
+      <div class="Bottom_left_section">
+        <p class="Bottom_text">Last Updated:</p>
+        <p class="Bottom_text">October 12th 2025</p>
+      </div>
+      <div style="text-align: center;">
+        <p class="Bottom_text">Website ends here lol</p>
+        <p class="Bottom_text" style="color: #1E1E1E;">Stop exposing my bad web design D:</p>
+      </div>
+      <div class="Bottom_right_section">
+        <p class="Bottom_text">Discord: 
+          <a href="https://discord.com/users/230356577155022848" target="_blank" rel="noopener noreferrer">Fashynell</a>
+        </p>
+        <p class="Bottom_text">Steam: 
+          <a href="https://steamcommunity.com/id/Melkerp04/" target="_blank" rel="noopener noreferrer">Fashynell</a>
+        </p>
+        <p class="Bottom_text">Youtube: 
+          <a href="https://www.youtube.com/@fashynell2643" target="_blank" rel="noopener noreferrer">Fashynell</a>
+        </p>
+      </div>
+    </div>
+    <a id="bottom"></a>
+
+    <script>
+      function syncSearch(form) {
+        const searchValue = document.getElementById("searchbar").value;
+        const hiddenInput = form.querySelector('input[name="search"]');
+        if (hiddenInput) {
+          hiddenInput.value = searchValue;
+        }
+      }
+
+      window.addEventListener("beforeunload", function () {
+        localStorage.setItem("scrollPos", window.scrollY);
+      });
+
+      window.addEventListener("load", function () {
+        const scrollPos = localStorage.getItem("scrollPos");
+        if (scrollPos) {
+          window.scrollTo(0, parseInt(scrollPos));
+        }
+      });
+
+      function stackNavItems() {
+        const navItems = document.querySelectorAll('.Navigation_item');
+        let offset = 0;
+        navItems.forEach(el => {
+          el.style.top = `${offset}px`;
+          offset += el.offsetHeight;
+        });
+      }
+
+      window.addEventListener('load', stackNavItems);
+      window.addEventListener('resize', stackNavItems);
+    </script>
+
+  </body>
+  
+</html>

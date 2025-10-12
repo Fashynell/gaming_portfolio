@@ -1,0 +1,482 @@
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("/static/RobotoSlab-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    height: auto;
+    background: linear-gradient(
+        to right,
+        #070B12 5%,
+        #2F0045 20% 80%,
+        #070B12 95%);
+}
+
+
+.Title_text {
+    color: white;
+    font-family: "RobotoSlab";
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px 15px black;
+    scroll-margin-top: 10rem;
+}
+.Subtitle_text {
+    color: white;
+    font-family: "RobotoSlab";
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 21%;
+    margin-right: 21%;
+    text-shadow: 2px 2px 10px black;
+}
+
+
+.All_buttons_holder {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 20rem;
+    margin: auto;
+}
+
+.Left_buttons_holder {
+    display: grid;
+    width: 28%;
+    height: 100%;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 15% 85%;
+}
+.Middle_buttons_holder {
+    display: grid;
+    width: 25%;
+    height: 100%;
+    grid-template-rows: 15% 85%;
+}
+.Right_buttons_holder {
+    display: grid;
+    width: 28%;
+    height: 20rem;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 15% 85%;
+}
+
+.Group_sort_buttons_holder {
+    display: grid;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 48.5% 48.5%;
+    grid-template-rows: 32% 32% 32%;
+}
+.Order_buttons_holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.Platform_buttons_holder {
+    display: grid;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 48.5% 48.5%;
+    grid-template-rows: 24% 24% 24% 24%;
+}
+
+.Group_sort_button {
+    color: white;
+    height: 5.2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: "RobotoSlab";
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    background-color: #1E1E1E;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+.Group_sort_button:hover {
+    background-color: #2B2B2B;
+    box-shadow: 0 0 8px #B065D4;
+}
+.Group_sort_button:active {
+  transform: scale(0.97);
+  background-color: #1E1E1E;
+}
+.Platform_buttons_holder button {
+    height: 3.7rem;
+}
+.Platform_buttons_holder button:last-child {
+    grid-column: 1 / 3;
+    justify-self: center;
+    width: 48%;
+}
+
+.Asc_order_button {
+    color: white;
+    width: 50%;
+    height: 20%;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: "RobotoSlab";
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    background-color: #1E1E1E;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+.Asc_order_button:hover {
+    background-color: #2B2B2B;
+    box-shadow: 0 0 8px #B065D4;
+}
+.Asc_order_button:active {
+  transform: scale(0.97);
+  background-color: #1E1E1E;
+}
+
+.Desc_order_button {
+    color: white;
+    width: 50%;
+    height: 20%;
+    font-size: 1.2rem;
+    font-family: "RobotoSlab";
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    background-color: #1E1E1E;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+.Desc_order_button:hover {
+    background-color: #2B2B2B;
+    box-shadow: 0 0 8px #B065D4;
+}
+.Desc_order_button:active {
+  transform: scale(0.97);
+  background-color: #1E1E1E;
+}
+
+
+.Search_bar {
+    color: white;
+    font-size: 1.2rem;
+    font-family: "RobotoSlab";
+    width: 90%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: .2rem solid #666666;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+.Search_bar:focus {
+    outline: none;
+    border: .2rem solid #B67DCE;
+    box-shadow: 0 0 5px 2px rgba(182, 125, 206, 0.5);
+}
+.Search_button {
+    color: white;
+    min-width: 43px;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: "RobotoSlab";
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    background-color: #1E1E1E;
+    border: .2rem solid #666666;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+.Search_button:hover {
+    background-color: #2B2B2B;
+    box-shadow: 0 0 8px #B065D4;
+}
+.Search_button:active {
+  transform: scale(0.97);
+  background-color: #1E1E1E;
+}
+
+
+.Buttons_text {
+    color: white;
+    font-family: "RobotoSlab";
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+}
+.Group_text {
+    color: white;
+    font-family: "RobotoSlab";
+    font-size: 3.3rem;
+    text-align: center;
+    margin-top: -0.2%;
+    margin-bottom: -0.6%;
+    text-shadow: 2px 2px 15px black;
+    scroll-margin-top: 10rem;
+}
+.Group_mini_text {
+    color: white;
+    font-family: "RobotoSlab";
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 0.9%;
+    margin-bottom: 0.5%;
+    text-shadow: 2px 2px 8px black;
+}
+.Group_line {
+    height: 2px;
+    width: 60%;
+    margin-left: 20%;
+    background: linear-gradient(
+        to right, 
+        transparent, 
+        #BF87F5, 
+        transparent);
+}
+
+
+.Navigation_items_holder {
+	position: sticky;
+	top: 4.15rem;
+	margin-left: 0.15%;
+    display: flex;
+    flex-direction: column;
+}
+.Navigation_item {
+    position: absolute;
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: bold;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    white-space: normal;
+    width: 3.75%;
+    margin-top: -20px;
+    padding: 5px 4px 5px 4px;
+    background-color: #1E1E1E;
+    border-left: .2rem solid #6B62F0;
+    border-right: .2rem solid #6B62F0;
+    border-bottom: .3rem solid #6B62F0;
+}
+.Navigation_item a {
+    display: block;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.Navigation_item:first-of-type { border-color: #A094F2; }
+.Navigation_item:nth-of-type(even) { border-color: #A094F2; }
+
+
+.Sticky_top {
+	position: sticky;
+	top: 0;
+    z-index: 2;
+	padding-top: 8px;
+    display: flex;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.4);
+	background: linear-gradient(
+        to right,
+        #070B12 5%,
+        #2A003F 20% 80%,
+        #070B12 95%);
+}
+.Top_side_column {
+    width: 7%;
+    border-top: .25rem solid #6B62F0;
+    border-bottom: .25rem solid #6B62F0;
+    background-color: #1E1E1E;
+    z-index: 1;
+}
+.Top_game_column {
+    font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    font-family: "RobotoSlab";
+    font-size: 1.1rem;
+	text-align: center;
+	text-justify: inter-word;
+	overflow-wrap: break-word;
+	word-break: break-word;
+	width: 10%;
+    min-height: 40px;
+	padding: 5px;
+    border: .25rem solid #6B62F0;
+    background-color: #1E1E1E;
+    background-clip: padding-box;
+}
+
+.Game_row {
+	display: flex;
+	color: white;
+	height: auto;
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+.Game_column {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    font-family: "RobotoSlab";
+    font-size: 1.1rem;
+	text-align: center;
+	text-justify: inter-word;
+	overflow-wrap: break-word;
+	word-break: break-word;
+	width: 10%;
+    min-height: 40px;
+	padding: 5px;
+    background-color: #1E1E1E;
+    background-clip: padding-box;
+}
+.Platform_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Game_column[data-completion="100%"]       { color: #ED34DE; }
+.Game_column[data-completion="99%"]        { color: #3F9EEB; }
+.Game_column[data-completion="Finished"]   { color: #66BB6A; }
+.Game_column[data-completion="Unfinished"] { color: #FB8C00; }
+.Game_column[data-completion="Dropped"]    { color: #D84343; }
+.Game_column[data-completion="N/A"]        { color: #BBBBBB; }
+
+.Platform[data-platform="Browser"]  { color: #F4B400; }
+.Platform[data-platform="Gamecube"] { color: #7851A9; }
+.Platform[data-platform="Mobile"]   { color: #34A853; }
+.Platform[data-platform="PC"]       { color: #0078D6; }
+.Platform[data-platform="SNES"]     { color: #A2A2A2; }
+.Platform[data-platform="Switch"]   { color: #FF3C28; }
+.Platform[data-platform="Wii"]      { color: #F5F5F5; }
+
+.Game_column[data-dlc="Yes"] { color: #66BB6A !important; }
+.Game_column[data-dlc="No"]  { color: #D84343 !important; }
+.Game_column[data-dlc="N/A"] { color: #CCCCCC !important; }
+
+.Game_column[data-rating="0/10"]   { color: #8B0000; }
+.Game_column[data-rating="0.5/10"] { color: #A61C1C; }
+.Game_column[data-rating="1/10"]   { color: #C62828; }
+.Game_column[data-rating="1.5/10"] { color: #D84343; }
+.Game_column[data-rating="2/10"]   { color: #E74C3C; }
+.Game_column[data-rating="2.5/10"] { color: #EF5350; }
+.Game_column[data-rating="3/10"]   { color: #F06257; }
+.Game_column[data-rating="3.5/10"] { color: #F57C00; }
+.Game_column[data-rating="4/10"]   { color: #FB8C00; }
+.Game_column[data-rating="4.5/10"] { color: #FFA000; }
+.Game_column[data-rating="5/10"]   { color: #FFB300; }
+.Game_column[data-rating="5.5/10"] { color: #FDD835; }
+.Game_column[data-rating="6/10"]   { color: #D4E157; }
+.Game_column[data-rating="6.5/10"] { color: #9CCC65; }
+.Game_column[data-rating="7/10"]   { color: #66BB6A; }
+.Game_column[data-rating="7.5/10"] { color: #43A047; }
+.Game_column[data-rating="8/10"]   { color: #2E7D32; }
+.Game_column[data-rating="8.5/10"] { color: #1C61D9; }
+.Game_column[data-rating="9/10"]   { color: #3F9EEB; }
+.Game_column[data-rating="9.5/10"] { color: #B52DCC; }
+.Game_column[data-rating="10/10"]  { color: #ED34DE; }
+
+.Game_row:nth-of-type(odd)  .Game_column { border: .25rem solid #B167F5; }
+.Game_row:nth-of-type(even) .Game_column { border: .25rem solid #DD5CF2; }
+
+.Column_up_left    { border-radius: 30px 0px 0px 0px; }
+.Column_down_left  { border-radius: 0px 0px 0px 30px; }
+.Column_solo_left  { border-radius: 30px 0px 0px 30px; }
+.Column_up_right   { border-radius: 0px 30px 0px 0px; }
+.Column_down_right { border-radius: 0px 0px 30px 0px; }
+.Column_solo_right { border-radius: 0px 30px 30px 0px; }
+
+
+.Bottom_section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 89.57%;
+    height: 7.5rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: .25rem solid #8F13CF;
+    border-left: .25rem solid #8F13CF;
+    border-right: .25rem solid #8F13CF;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #1E1E1E;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+.Bottom_left_section {
+    text-align: left;
+    margin-left: 1%;
+}
+.Bottom_right_section {
+    text-align: right;
+    margin-right: 1%;
+}
+
+.Bottom_text {
+    color: white;
+    font-family: "RobotoSlab";
+    font-size: 1.2rem;
+    margin-bottom: -1%;
+}
+.Bottom_text a {
+    color: white;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #888888;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 14px;
+    color: #888888;
+    margin-left: 6px;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 320px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.3;
+    padding: 8px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333333 transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
