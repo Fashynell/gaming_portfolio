@@ -10,7 +10,7 @@
     },
     {
     	"title": "A Dance of Fire and Ice",
-    	"playtime": "32 hours",
+    	"playtime": "36 hours",
     	"completion": "100%",
     	"platform": "PC",
     	"dlc": "Yes",
@@ -179,6 +179,15 @@
     	"rating": "8/10",
     	"extra_info": "I need to give this game some playthroughs on harder difficulties to be able to compare it to the original. The game is however awesome and wicked, just like a bayonetta game should be."
     },
+	{
+    	"title": "Bayonetta 3",
+    	"playtime": "5 hours",
+    	"completion": "Unfinished",
+    	"platform": "Switch",
+    	"dlc": "N/A",
+    	"rating": "8.5/10",
+    	"extra_info": "For being such a late sequel in the series, it holds up surprisingly well and still feels super fun and interesting."
+    },
     {
     	"title": "Beat the Boss 4",
     	"playtime": "60 hours",
@@ -226,12 +235,12 @@
     },
     {
     	"title": "Bomb Chicken",
-    	"playtime": "7 hours",
-    	"completion": "Finished",
+    	"playtime": "11 hours",
+    	"completion": "100%",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "3.5/10",
-    	"extra_info": "Cute little game, but it could use more bosses since the final boss is the only one, but it was a good boss. 1.5 playthroughs."
+    	"extra_info": "Cute little game, but it could use more bosses since there are only 2, and the normal gameplay gets a bit boring after a while. 2 playthroughs."
     },
     {
     	"title": "Bomb It (1-6)",
@@ -829,7 +838,7 @@
     },
     {
     	"title": "Geometry Dash",
-    	"playtime": "3070 hours",
+    	"playtime": "3165 hours",
     	"completion": "99%",
     	"platform": "PC & Mobile",
     	"dlc": "N/A",
@@ -856,7 +865,7 @@
     },
     {
     	"title": "Good Knight",
-    	"playtime": "13 hours",
+    	"playtime": "15 hours",
     	"completion": "Finished",
     	"platform": "PC",
     	"dlc": "N/A",
@@ -982,7 +991,7 @@
     },
     {
     	"title": "Hollow Knight: Silksong",
-    	"playtime": "120 hours",
+    	"playtime": "145 hours",
     	"completion": "100%",
     	"platform": "Switch",
     	"dlc": "N/A",
@@ -1297,10 +1306,10 @@
     },
     {
     	"title": "Lies of P",
-    	"playtime": "125 hours",
-    	"completion": "100%",
+    	"playtime": "190 hours",
+    	"completion": "99%",
     	"platform": "PC",
-    	"dlc": "No",
+    	"dlc": "Yes",
     	"rating": "8/10",
     	"extra_info": "Very fun soulslike game. The parrying system and the setting makes the game different enough to feel refreshing. The only problem is how linear it is, even more so than Dark Souls 3."
     },
@@ -1567,7 +1576,7 @@
     },
 	{
     	"title": "Phigros",
-    	"playtime": "90 hours",
+    	"playtime": "95 hours",
     	"completion": "Finished",
     	"platform": "Mobile",
     	"dlc": "N/A",
@@ -1765,12 +1774,12 @@
     },
     {
     	"title": "Roblox",
-    	"playtime": "25 hours",
+    	"playtime": "75 hours",
     	"completion": "N/A",
     	"platform": "PC",
     	"dlc": "N/A",
-    	"rating": "6/10",
-    	"extra_info": "I only played this for a week when I was sick at home from school when an online friend brought me into it. It's certainly very fun and it has very creative maps just like Minecraft, but the playerbase is filled with a lot more children."
+    	"rating": "6.5/10",
+    	"extra_info": "I basically only play EToH on here. The enjoyment of Roblox fully depends on what games you find, and how toxic the playerbase is."
     },
     {
     	"title": "Rocket League",
@@ -1810,12 +1819,12 @@
     },
 	{
     	"title": "Scrap Clicker 2",
-    	"playtime": "160 hours",
+    	"playtime": "175 hours",
     	"completion": "Unfinished",
     	"platform": "Mobile",
     	"dlc": "N/A",
-    	"rating": "7/10",
-    	"extra_info": "A fun idle game where you merge trashcans and gain more money from them, upgrade to get better trashcans, and repeat. But it is fun. 2 playthroughs."
+    	"rating": "7.5/10",
+    	"extra_info": "A fun idle game where you merge trashcans and gain more money from them, upgrade to get better trashcans, and repeat. But it is very fun and has a lot of new unlocks throughout. 2 playthroughs."
     },
     {
     	"title": "Shopping Cart Hero (1-3)",
@@ -2161,12 +2170,12 @@
     },
     {
     	"title": "Super Mario RPG",
-    	"playtime": "17 hours",
-    	"completion": "Unfinished",
+    	"playtime": "36 hours",
+    	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "6.5/10",
-    	"extra_info": "Nice experimentation into RPGs for mario games, also has some good humor."
+    	"extra_info": "Nice experimentation into RPGs for mario games, also has some good humor. But the main issue is the balancing, which makes fights either super easy or weirdly hard, ruining most of the experience."
     },
     {
     	"title": "Super Mario Sunshine",
@@ -2206,7 +2215,7 @@
     },
     {
     	"title": "Super One More Jump",
-    	"playtime": "45 hours",
+    	"playtime": "46 hours",
     	"completion": "99%",
     	"platform": "Switch",
     	"dlc": "N/A",
@@ -2242,7 +2251,7 @@
     },
     {
     	"title": "Super Smash Bros. Ultimate",
-    	"playtime": "420 hours",
+    	"playtime": "425 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "Yes",
@@ -2332,12 +2341,12 @@
     },
     {
     	"title": "The Binding of Isaac: Rebirth",
-    	"playtime": "160 hours",
+    	"playtime": "220 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "Afterbirth+",
     	"rating": "8/10",
-    	"extra_info": "All bosses killed, but missing some characters, completion marks, and uncompleted challenges."
+    	"extra_info": "All bosses killed, but missing some completion marks, and uncompleted challenges."
     },
     {
     	"title": "The End is Nigh",
