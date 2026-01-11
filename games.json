@@ -186,7 +186,7 @@
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "8.5/10",
-    	"extra_info": "For being such a late sequel in the series, it holds up surprisingly well and still feels super fun and interesting."
+    	"extra_info": "For being such a late entry in the series, it holds up surprisingly well and still feels super fun and interesting."
     },
     {
     	"title": "Beat the Boss 4",
@@ -838,12 +838,12 @@
     },
     {
     	"title": "Geometry Dash",
-    	"playtime": "3165 hours",
+    	"playtime": "3204 hours",
     	"completion": "99%",
     	"platform": "PC & Mobile",
     	"dlc": "N/A",
     	"rating": "8.5/10",
-    	"extra_info": "This game will forever be a classic, and you cannot dismiss it just for being a 1 button game. Not sure how to define my completion for this, I have all achievements but i'm missing a few things in-game."
+    	"extra_info": "This game will forever be a classic, and you cannot dismiss it just for being a 1 button game. Don't have 100% completion anymore since they just added hundreds of achievements."
     },
 	{
     	"title": "Geometry Dash (Meltdown & SubZero & World)",
@@ -1306,12 +1306,12 @@
     },
     {
     	"title": "Lies of P",
-    	"playtime": "190 hours",
+    	"playtime": "240 hours",
     	"completion": "99%",
     	"platform": "PC",
     	"dlc": "Yes",
     	"rating": "8/10",
-    	"extra_info": "Very fun soulslike game. The parrying system and the setting makes the game different enough to feel refreshing. The only problem is how linear it is, even more so than Dark Souls 3."
+    	"extra_info": "Very fun soulslike game. The parrying system and the setting makes the game different enough to feel refreshing. The only problem is how linear it is, even more so than Dark Souls 3. Only missing one dumb achievement for 100%."
     },
     {
     	"title": "Lonely Mountains: Downhill",
@@ -1665,6 +1665,15 @@
     	"extra_info": "Cute little game where you train a magikarp to jump high, and then enter into a championship. The gameplay loop is repetitive, but that's more so intentional."
     },
 	{
+    	"title": "Postal: Brain Damaged",
+    	"playtime": "3 hours",
+    	"completion": "Unfinished",
+    	"platform": "PC",
+    	"dlc": "No",
+    	"rating": "7.5/10",
+    	"extra_info": "Very refreshing FPS singleplayer game carried by the humor in weapons, enemies, the world, and stupid story. I love it."
+    },
+	{
     	"title": "Pou",
     	"playtime": "80 hours",
     	"completion": "N/A",
@@ -1774,7 +1783,7 @@
     },
     {
     	"title": "Roblox",
-    	"playtime": "75 hours",
+    	"playtime": "85 hours",
     	"completion": "N/A",
     	"platform": "PC",
     	"dlc": "N/A",
@@ -1819,7 +1828,7 @@
     },
 	{
     	"title": "Scrap Clicker 2",
-    	"playtime": "175 hours",
+    	"playtime": "190 hours",
     	"completion": "Unfinished",
     	"platform": "Mobile",
     	"dlc": "N/A",
@@ -2116,12 +2125,12 @@
     },
     {
     	"title": "Super Mario 64",
-    	"playtime": "7 hours",
-    	"completion": "Unfinished",
+    	"playtime": "24 hours",
+    	"completion": "100%",
     	"platform": "Switch",
     	"dlc": "N/A",
-    	"rating": "5/10",
-    	"extra_info": "Controls and camera are janky, and some stars are very confusing. I Personally don't think the game is that good nowadays, people just have nostalgia for it."
+    	"rating": "6.5/10",
+    	"extra_info": "Controls and camera are janky, and some stars are very confusing. I Personally don't think the game is that good nowadays, people just have nostalgia for it. But it still has a lot of charm to it, and it was revolutionary at the time."
     },
     {
     	"title": "Super Mario Bros. (1 & 3)",
@@ -2138,7 +2147,7 @@
     	"completion": "Finished",
     	"platform": "Wii & Switch",
     	"dlc": "N/A",
-    	"rating": "8.5/10",
+    	"rating": "8/10",
     	"extra_info": "This game has amazing ideas and executes on them well, but you will never convince me it's better than the sequel. And I will never 100% it because of Luigi mode. 3 playthroughs throughout the years."
     },
     {
@@ -2184,7 +2193,7 @@
     	"platform": "Gamecube & Switch",
     	"dlc": "N/A",
     	"rating": "8.5/10",
-    	"extra_info": "Extremely well aged mario game with great ideas. 3 playthroughs throughout the years."
+    	"extra_info": "Extremely fun and well-aged mario game with great ideas. 3 playthroughs throughout the years."
     },
     {
     	"title": "Super Mario World 2: Yoshi's Island",
@@ -2341,12 +2350,12 @@
     },
     {
     	"title": "The Binding of Isaac: Rebirth",
-    	"playtime": "220 hours",
+    	"playtime": "370 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "Afterbirth+",
     	"rating": "8/10",
-    	"extra_info": "All bosses killed, but missing some completion marks, and uncompleted challenges."
+    	"extra_info": "Basically the only rogue-like i manage to enjoy a lot. Only thing left until 100% is 1 challenge, ~10 completions marks, ~15 items, and ~5 other secrets."
     },
     {
     	"title": "The End is Nigh",
