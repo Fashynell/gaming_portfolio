@@ -10,7 +10,7 @@
     },
     {
     	"title": "A Dance of Fire and Ice",
-    	"playtime": "36 hours",
+    	"playtime": "45 hours",
     	"completion": "100%",
     	"platform": "PC",
     	"dlc": "Yes",
@@ -177,16 +177,16 @@
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "8/10",
-    	"extra_info": "I need to give this game some playthroughs on harder difficulties to be able to compare it to the original. The game is however awesome and wicked, just like a bayonetta game should be."
+    	"extra_info": "I need to give this game some playthroughs on harder difficulties to be able to compare it to the rest of the series. The game is however awesome and wicked, just like a bayonetta game should be."
     },
 	{
     	"title": "Bayonetta 3",
-    	"playtime": "5 hours",
-    	"completion": "Unfinished",
+    	"playtime": "23 hours",
+    	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "8.5/10",
-    	"extra_info": "For being such a late entry in the series, it holds up surprisingly well and still feels super fun and interesting."
+    	"extra_info": "For being such a late entry in the series, it holds up surprisingly well and still feels super fun and interesting, while changing some aspects that makes it feel fresh."
     },
     {
     	"title": "Beat the Boss 4",
@@ -685,7 +685,7 @@
     },
     {
     	"title": "Elden Ring",
-    	"playtime": "340 hours",
+    	"playtime": "350 hours",
     	"completion": "100%",
     	"platform": "PC",
     	"dlc": "Yes",
@@ -838,7 +838,7 @@
     },
     {
     	"title": "Geometry Dash",
-    	"playtime": "3206 hours",
+    	"playtime": "3205 hours",
     	"completion": "99%",
     	"platform": "PC & Mobile",
     	"dlc": "N/A",
@@ -910,11 +910,11 @@
     },
     {
     	"title": "Have a Nice Death",
-    	"playtime": "12 hours",
+    	"playtime": "16 hours",
     	"completion": "Unfinished",
     	"platform": "Switch",
     	"dlc": "N/A",
-    	"rating": "4/10",
+    	"rating": "5/10",
     	"extra_info": "I want to like this game a lot because of the awesome art-style, but I haven't been able to get into it yet, probably because i'm not that into rogue-likes."
     },
 	{
@@ -991,12 +991,12 @@
     },
     {
     	"title": "Hollow Knight: Silksong",
-    	"playtime": "145 hours",
-    	"completion": "100%",
+    	"playtime": "165 hours",
+    	"completion": "99%",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "9.5/10",
-    	"extra_info": "How they managed to improve on the first game amazes me. The movement is better, the world feels even more lively, and the characters and their quests are great. The difficulty can feel off at times since way too many enemies deal double damage. 3 playthroughs, including unfinished dashless run."
+    	"extra_info": "How they managed to improve on the first game amazes me. The movement is better, the world feels even more lively, and the characters and their quests are great. The difficulty can feel off at times since way too many enemies deal double damage. 3 playthroughs, including unfinished dashless run and failed steel soul run."
     },
     {
     	"title": "Holy Potatoes! We're in Space?!",
@@ -1394,6 +1394,15 @@
     	"rating": "9/10",
     	"extra_info": "This is easily the best mario kart game by having actual good inside drift, amazing tracks and music, and endless replayability. I'm just sad I never got any mods for the game to work, since the modding scene is huge and would easily make it a 10/10 game."
     },
+	{
+    	"title": "Mario Kart World",
+    	"playtime": "16 hours",
+    	"completion": "Finished",
+    	"platform": "Switch",
+    	"dlc": "N/A",
+    	"rating": "8/10",
+    	"extra_info": "I can't decide how i feel about this game. It has some great tracks, the driving is smooth, and free roam is very cool. The game is however heavily brought down by the intermission tracks, making it hard to want to play this game over mario kart 8 deluxe."
+    },
     {
     	"title": "Mario Party (4-6)",
     	"playtime": "250 hours",
@@ -1670,7 +1679,7 @@
     	"completion": "Unfinished",
     	"platform": "PC",
     	"dlc": "No",
-    	"rating": "7.5/10",
+    	"rating": "7/10",
     	"extra_info": "Very refreshing FPS singleplayer game carried by the humor in weapons, enemies, the world, and stupid story. I love it."
     },
 	{
@@ -1828,7 +1837,7 @@
     },
 	{
     	"title": "Scrap Clicker 2",
-    	"playtime": "190 hours",
+    	"playtime": "195 hours",
     	"completion": "Unfinished",
     	"platform": "Mobile",
     	"dlc": "N/A",
@@ -2026,7 +2035,7 @@
     },
     {
     	"title": "Splatoon 3",
-    	"playtime": "610 hours",
+    	"playtime": "620 hours",
     	"completion": "100%",
     	"platform": "Switch",
     	"dlc": "Yes",
@@ -2188,8 +2197,8 @@
     },
     {
     	"title": "Super Mario Sunshine",
-    	"playtime": "70 hours",
-    	"completion": "Finished",
+    	"playtime": "65 hours",
+    	"completion": "100%",
     	"platform": "Gamecube & Switch",
     	"dlc": "N/A",
     	"rating": "8.5/10",
@@ -2350,10 +2359,10 @@
     },
     {
     	"title": "The Binding of Isaac: Rebirth",
-    	"playtime": "410 hours",
-    	"completion": "100%",
+    	"playtime": "465 hours",
+    	"completion": "Finished",
     	"platform": "Switch",
-    	"dlc": "Afterbirth+",
+    	"dlc": "Yes",
     	"rating": "8.5/10",
     	"extra_info": "Basically the only rogue-like i manage to enjoy a lot. I got 100% for Afterbirth+, now its time for Repentance :)"
     },
@@ -2386,7 +2395,7 @@
     },
     {
     	"title": "The Legend of Zelda: Breath of the Wild",
-    	"playtime": "615 hours",
+    	"playtime": "630 hours",
     	"completion": "99%",
     	"platform": "Switch",
     	"dlc": "Yes",
