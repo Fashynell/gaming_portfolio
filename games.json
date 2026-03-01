@@ -10,7 +10,7 @@
     },
     {
     	"title": "A Dance of Fire and Ice",
-    	"playtime": "45 hours",
+    	"playtime": "47 hours",
     	"completion": "100%",
     	"platform": "PC",
     	"dlc": "Yes",
@@ -181,7 +181,7 @@
     },
 	{
     	"title": "Bayonetta 3",
-    	"playtime": "23 hours",
+    	"playtime": "55 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
@@ -262,17 +262,17 @@
     },
     {
     	"title": "Borderlands 2",
-    	"playtime": "190 hours",
+    	"playtime": "205 hours",
     	"completion": "Finished",
     	"platform": "PC",
     	"dlc": "Yes",
     	"rating": "9.5/10",
-    	"extra_info": "Such an amazing time to play. The characters, guns, areas, and story are all so good, and peak DLCs. The replayability is also off the scale with all the different weapons. 3 playthroughs with Zer0, Maya, and Salvador."
+    	"extra_info": "Such an amazing time to play. The characters, guns, areas, and story are all so good, and peak DLCs. The replayability is also off the scale with all the different weapons. 3 playthroughs with Zer0, Maya, and Gaige."
     },
     {
     	"title": "Borderlands: The Pre-Sequel",
-    	"playtime": "35 hours",
-    	"completion": "Dropped",
+    	"playtime": "20 hours",
+    	"completion": "Unfinished",
     	"platform": "PC",
     	"dlc": "N/A",
     	"rating": "8/10",
@@ -865,12 +865,12 @@
     },
     {
     	"title": "Good Knight",
-    	"playtime": "15 hours",
-    	"completion": "Finished",
+    	"playtime": "19 hours",
+    	"completion": "99%",
     	"platform": "PC",
     	"dlc": "N/A",
     	"rating": "5/10",
-    	"extra_info": "A one button bullet hell game, just the idea got me interested, and the visuals are really cool at that. All in all, the gameplay is good but repetitive, especially since the levels are too long."
+    	"extra_info": "A one button bullet hell game, just the idea got me interested, and the visuals are really cool at that. All in all, the gameplay is good but repetitive, especially since the levels are too long. I'm not getting 100% because of grindy achievements."
     },
     {
     	"title": "Gravitee Wars",
@@ -991,12 +991,12 @@
     },
     {
     	"title": "Hollow Knight: Silksong",
-    	"playtime": "165 hours",
+    	"playtime": "180 hours",
     	"completion": "99%",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "9.5/10",
-    	"extra_info": "How they managed to improve on the first game amazes me. The movement is better, the world feels even more lively, and the characters and their quests are great. The difficulty can feel off at times since way too many enemies deal double damage. 3 playthroughs, including unfinished dashless run and failed steel soul run."
+    	"extra_info": "How they managed to improve on the first game amazes me. The movement is better, the world feels even more lively, and the characters and their quests are great. The difficulty can feel off at times since way too many enemies deal double damage. 3 playthroughs, including dashless run and multiple steel soul runs."
     },
     {
     	"title": "Holy Potatoes! We're in Space?!",
@@ -1396,11 +1396,11 @@
     },
 	{
     	"title": "Mario Kart World",
-    	"playtime": "16 hours",
+    	"playtime": "17 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
-    	"rating": "8/10",
+    	"rating": "7.5/10",
     	"extra_info": "I can't decide how i feel about this game. It has some great tracks, the driving is smooth, and free roam is very cool. The game is however heavily brought down by the intermission tracks, making it hard to want to play this game over mario kart 8 deluxe."
     },
     {
@@ -1409,7 +1409,7 @@
     	"completion": "N/A",
     	"platform": "Gamecube",
     	"dlc": "N/A",
-    	"rating": "7.5/10",
+    	"rating": "8/10",
     	"extra_info": "The mario party games on the gamecube are the peak of the series. They include the best concepts, minigames, and boards. I especially love Mario Party 6 with the day and night concept."
     },
     {
@@ -1418,7 +1418,7 @@
     	"completion": "N/A",
     	"platform": "Wii",
     	"dlc": "N/A",
-    	"rating": "7/10",
+    	"rating": "7.5/10",
     	"extra_info": "This is the last Mario Party game I played, and it is different but still the same fun. I especially enjoyed the board where you capture hotels and grow them, as it reminds me of Pac-Man Party."
     },
     {
@@ -1451,7 +1451,7 @@
     {
     	"title": "Monster Hunter Rise",
     	"playtime": "115 hours",
-    	"completion": "Finished",
+    	"completion": "Unfinished",
     	"platform": "Switch",
     	"dlc": "No",
     	"rating": "6.5/10",
@@ -1582,6 +1582,15 @@
     	"dlc": "N/A",
     	"rating": "4/10",
     	"extra_info": "A 2D warrior game where a paladin-dog escorts allies and uses abilities to defeat the enemies and reach their base. I remember really enjoying it, but it had a lot of levels."
+    },
+	{
+    	"title": "Persona 3 Portable",
+    	"playtime": "20 hours",
+    	"completion": "Unfinished",
+    	"platform": "Switch",
+    	"dlc": "N/A",
+    	"rating": "7/10",
+    	"extra_info": "So far I'm conflicted on this game. It stresses me out a lot that you have to follow a schedule and I easily get content FOMO. I also compare the game too much to SMT5, which has sooo many QOL features this game is lacking. However, the characters and music are amazing."
     },
 	{
     	"title": "Phigros",
@@ -1837,7 +1846,7 @@
     },
 	{
     	"title": "Scrap Clicker 2",
-    	"playtime": "195 hours",
+    	"playtime": "200 hours",
     	"completion": "Unfinished",
     	"platform": "Mobile",
     	"dlc": "N/A",
@@ -1917,7 +1926,7 @@
     	"extra_info": "Nice speedrunning game, but the leaderboards are ruined due to updates patching bugs. Never got 100% due to needing to have a steam friend who owns the game lol."
     },
     {
-    	"title": "Shin Megami Tensei V",
+    	"title": "Shin Megami Tensei V: Vengeance",
     	"playtime": "360 hours",
     	"completion": "Finished",
     	"platform": "Switch & PC",
@@ -2035,7 +2044,7 @@
     },
     {
     	"title": "Splatoon 3",
-    	"playtime": "620 hours",
+    	"playtime": "630 hours",
     	"completion": "100%",
     	"platform": "Switch",
     	"dlc": "Yes",
@@ -2359,12 +2368,12 @@
     },
     {
     	"title": "The Binding of Isaac: Rebirth",
-    	"playtime": "465 hours",
+    	"playtime": "500 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "Yes",
     	"rating": "8.5/10",
-    	"extra_info": "Basically the only rogue-like i manage to enjoy a lot. I got 100% for Afterbirth+, now its time for Repentance :)"
+    	"extra_info": "Basically the only rogue-like i manage to enjoy a lot. I got 100% for Afterbirth+, now the Repentance grind begins :)"
     },
     {
     	"title": "The End is Nigh",
@@ -2395,12 +2404,12 @@
     },
     {
     	"title": "The Legend of Zelda: Breath of the Wild",
-    	"playtime": "630 hours",
+    	"playtime": "640 hours",
     	"completion": "99%",
     	"platform": "Switch",
     	"dlc": "Yes",
     	"rating": "9/10",
-    	"extra_info": "Such a good start to the switches' lifespan. I didn't even plan to buy this, but it is such an amazing game in every way. 4 playthroughs. I never got 100% because the master sword trials were too hard, and I didn't wanna get all the koroks."
+    	"extra_info": "Such a good start to the switches' lifespan. I didn't even plan to buy this, but it is such an amazing game in every way. 4 playthroughs, including no fast travel run. I never got 100% because the master sword trials were too hard, and I didn't wanna get all the koroks."
     },
     {
     	"title": "The Legend of Zelda: Tears of the Kingdom",
