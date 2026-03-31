@@ -80,6 +80,15 @@
     	"rating": "4.5/10",
     	"extra_info": "I like the idea of this game, but it doesn't feel that smooth for some reason. I wish you could switch fingers on the hold notes, otherwise you almost have to play on a tablet using 16 fingers."
     },
+	{
+    	"title": "Archero 2",
+    	"playtime": "20 hours",
+    	"completion": "Unfinished",
+    	"platform": "Mobile",
+    	"dlc": "N/A",
+    	"rating": "7/10",
+    	"extra_info": "It's a pretty fun mobile game that builds on the ideas from the original archero and some vampire survivor type gameplay."
+    },
     {
     	"title": "ARMS",
     	"playtime": "40 hours",
@@ -181,12 +190,12 @@
     },
 	{
     	"title": "Bayonetta 3",
-    	"playtime": "55 hours",
-    	"completion": "Finished",
+    	"playtime": "65 hours",
+    	"completion": "99%",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "8.5/10",
-    	"extra_info": "For being such a late entry in the series, it holds up surprisingly well and still feels super fun and interesting, while changing some aspects that makes it feel fresh."
+    	"extra_info": "For being such a late entry in the series, it holds up surprisingly well and still feels super fun and interesting, while changing some aspects that makes it feel fresh. Just like the other bayonetta games, i'm never getting 100% due to the rodin fight and witch trial 3."
     },
     {
     	"title": "Beat the Boss 4",
@@ -262,12 +271,12 @@
     },
     {
     	"title": "Borderlands 2",
-    	"playtime": "205 hours",
+    	"playtime": "225 hours",
     	"completion": "Finished",
     	"platform": "PC",
     	"dlc": "Yes",
     	"rating": "9.5/10",
-    	"extra_info": "Such an amazing time to play. The characters, guns, areas, and story are all so good, and peak DLCs. The replayability is also off the scale with all the different weapons. 3 playthroughs with Zer0, Maya, and Gaige."
+    	"extra_info": "Such an amazing time to play. The characters, guns, areas, and story are all so good, and peak DLCs. The replayability is also off the scale with all the different weapons. 2 playthroughs with Zer0 and co-op Gaige."
     },
     {
     	"title": "Borderlands: The Pre-Sequel",
@@ -838,7 +847,7 @@
     },
     {
     	"title": "Geometry Dash",
-    	"playtime": "3205 hours",
+    	"playtime": "3210 hours",
     	"completion": "99%",
     	"platform": "PC & Mobile",
     	"dlc": "N/A",
@@ -991,12 +1000,12 @@
     },
     {
     	"title": "Hollow Knight: Silksong",
-    	"playtime": "180 hours",
-    	"completion": "99%",
+    	"playtime": "205 hours",
+    	"completion": "100%",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "9.5/10",
-    	"extra_info": "How they managed to improve on the first game amazes me. The movement is better, the world feels even more lively, and the characters and their quests are great. The difficulty can feel off at times since way too many enemies deal double damage. 3 playthroughs, including dashless run and multiple steel soul runs."
+    	"extra_info": "How they managed to improve on the first game amazes me. The movement is better, the world feels even more lively, and the characters and their quests are great. The difficulty can feel off at times since way too many enemies deal double damage. 3 playthroughs, including dashless run and 100% steel soul run."
     },
     {
     	"title": "Holy Potatoes! We're in Space?!",
@@ -1365,7 +1374,7 @@
     	"platform": "Switch",
     	"dlc": "Yes",
     	"rating": "8.5/10",
-    	"extra_info": "Very solid Mario Kart game with a great variety of tracks, along with banger music as always."
+    	"extra_info": "Probably the smoothest feeling Mario Kart game, with a great variety of tracks, along with banger music as always."
     },
     {
     	"title": "Mario Kart Double Dash!!",
@@ -1392,11 +1401,11 @@
     	"platform": "Wii",
     	"dlc": "N/A",
     	"rating": "9/10",
-    	"extra_info": "This is easily the best mario kart game by having actual good inside drift, amazing tracks and music, and endless replayability. I'm just sad I never got any mods for the game to work, since the modding scene is huge and would easily make it a 10/10 game."
+    	"extra_info": "This is easily the best mario kart game by having actual good inside drift, amazing tracks and music, and endless replayability. I'm just sad I never got any mods for the game to work, since the modding scene is huge and would easily make it a 10/10 game. 3+ playthroughs."
     },
 	{
     	"title": "Mario Kart World",
-    	"playtime": "17 hours",
+    	"playtime": "23 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
@@ -1450,12 +1459,12 @@
 	},
     {
     	"title": "Monster Hunter Rise",
-    	"playtime": "115 hours",
+    	"playtime": "120 hours",
     	"completion": "Unfinished",
     	"platform": "Switch",
     	"dlc": "No",
     	"rating": "6.5/10",
-    	"extra_info": "This game made me realize that I don't enjoy fighting big enemies in games. The monsters also have too much health, and the gameplay becomes very samey even if the monsters have great variety. Still a pretty fun game."
+    	"extra_info": "This game made me realize that I don't enjoy fighting big enemies in games. The monsters also have too much health, and the gameplay becomes very samey even if the monsters have great variety. Still a decently fun game."
     },
     {
     	"title": "Moonlighter",
@@ -1585,12 +1594,12 @@
     },
 	{
     	"title": "Persona 3 Portable",
-    	"playtime": "20 hours",
-    	"completion": "Unfinished",
+    	"playtime": "115 hours",
+    	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
-    	"rating": "7/10",
-    	"extra_info": "So far I'm conflicted on this game. It stresses me out a lot that you have to follow a schedule and I easily get content FOMO. I also compare the game too much to SMT5, which has sooo many QOL features this game is lacking. However, the characters and music are amazing."
+    	"rating": "7.5/10",
+    	"extra_info": "I think this game is very solid overall. The story is good, the characters are great, combat is fun, and the music is amazing. I would just prefer if the tartarus sessions were less repetitive and slightly boring."
     },
 	{
     	"title": "Phigros",
@@ -1850,7 +1859,7 @@
     	"completion": "Unfinished",
     	"platform": "Mobile",
     	"dlc": "N/A",
-    	"rating": "7.5/10",
+    	"rating": "7/10",
     	"extra_info": "A fun idle game where you merge trashcans and gain more money from them, upgrade to get better trashcans, and repeat. But it is very fun and has a lot of new unlocks throughout. 2 playthroughs."
     },
     {
@@ -2076,7 +2085,7 @@
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "8.5/10",
-    	"extra_info": "The best farming game, with good characters and exploration. 4 playthroughs, including 100%, and staminaless (all bundles)."
+    	"extra_info": "The best farming game, with good characters and exploration. 5 playthroughs, including 100%, and staminaless (all bundles)."
     },
     {
     	"title": "Stories: The Path of Destinies",
@@ -2368,7 +2377,7 @@
     },
     {
     	"title": "The Binding of Isaac: Rebirth",
-    	"playtime": "500 hours",
+    	"playtime": "510 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "Yes",
@@ -2409,7 +2418,7 @@
     	"platform": "Switch",
     	"dlc": "Yes",
     	"rating": "9/10",
-    	"extra_info": "Such a good start to the switches' lifespan. I didn't even plan to buy this, but it is such an amazing game in every way. 4 playthroughs, including no fast travel run. I never got 100% because the master sword trials were too hard, and I didn't wanna get all the koroks."
+    	"extra_info": "Such a good start to the switches' lifespan. I didn't even plan to buy this, but it is such an amazing game in every way. 5 playthroughs, including no fast travel run. I never got 100% because the master sword trials were too hard, and I didn't wanna get all the koroks."
     },
     {
     	"title": "The Legend of Zelda: Tears of the Kingdom",
@@ -2582,6 +2591,15 @@
     	"rating": "9/10",
     	"extra_info": "The Trackmania game that I grew up on. I always remember me and my brothers building a bunch of maps and racing on with eachother. With this game also having 6 environments, it adds may more replay value. I alos came back to this game later on and beat a bunch of world records on the main levels."
     },
+	{
+    	"title": "Triangle Strategy",
+    	"playtime": "4 hours",
+    	"completion": "Unfinished",
+    	"platform": "Switch",
+    	"dlc": "N/A",
+    	"rating": "7/10",
+    	"extra_info": "So far this is quite a fun strategy game. The combat is great, but i'm not too fond of the story of music so far."
+    },
     {
     	"title": "Ty the Tasmanian Tiger",
     	"playtime": "80 hours",
@@ -2638,12 +2656,12 @@
     },
     {
     	"title": "Watch Dogs 2",
-    	"playtime": "100 hours",
-    	"completion": "Finished",
+    	"playtime": "140 hours",
+    	"completion": "99%",
     	"platform": "PC",
-    	"dlc": "No",
+    	"dlc": "Yes",
     	"rating": "8.5/10",
-    	"extra_info": "This is just GTA 5 but cooler and more fun. The hacking concept and the story along with it works really well. It also has a good mix of stealth, gun fights, puzzles, and fun side missions. 2 playthroughs."
+    	"extra_info": "This is just GTA 5 but cooler and more fun. The hacking concept and the story along with it works really well. It also has a good mix of stealth, gun fights, puzzles, and fun side missions. 3 playthroughs. I'm only missing one online achievement since my game crashes when starting an online match :("
     },
     {
     	"title": "When he jump, he go up like this",
