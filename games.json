@@ -82,7 +82,7 @@
     },
 	{
     	"title": "Archero 2",
-    	"playtime": "20 hours",
+    	"playtime": "30 hours",
     	"completion": "Unfinished",
     	"platform": "Mobile",
     	"dlc": "N/A",
@@ -271,16 +271,16 @@
     },
     {
     	"title": "Borderlands 2",
-    	"playtime": "225 hours",
-    	"completion": "Finished",
+    	"playtime": "375 hours",
+    	"completion": "100%",
     	"platform": "PC",
     	"dlc": "Yes",
     	"rating": "9.5/10",
-    	"extra_info": "Such an amazing time to play. The characters, guns, areas, and story are all so good, and peak DLCs. The replayability is also off the scale with all the different weapons. 2 playthroughs with Zer0 and co-op Gaige."
+    	"extra_info": "Such an amazing time to play. The characters, guns, areas, and story are all so good, and peak DLCs. The replayability is also off the scale with all the different weapons. 3 playthroughs with UVHM Zer0, UVHM Salvador, and co-op Gaige."
     },
     {
     	"title": "Borderlands: The Pre-Sequel",
-    	"playtime": "20 hours",
+    	"playtime": "21 hours",
     	"completion": "Unfinished",
     	"platform": "PC",
     	"dlc": "N/A",
@@ -1405,7 +1405,7 @@
     },
 	{
     	"title": "Mario Kart World",
-    	"playtime": "23 hours",
+    	"playtime": "28 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
@@ -1459,7 +1459,7 @@
 	},
     {
     	"title": "Monster Hunter Rise",
-    	"playtime": "120 hours",
+    	"playtime": "125 hours",
     	"completion": "Unfinished",
     	"platform": "Switch",
     	"dlc": "No",
