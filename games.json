@@ -550,7 +550,7 @@
     },
     {
     	"title": "Dark Souls 2: Scholar of the First Sin",
-    	"playtime": "170 hours",
+    	"playtime": "195 hours",
     	"completion": "100%",
     	"platform": "PC",
     	"dlc": "Yes",
@@ -694,7 +694,7 @@
     },
     {
     	"title": "Elden Ring",
-    	"playtime": "350 hours",
+    	"playtime": "355 hours",
     	"completion": "100%",
     	"platform": "PC",
     	"dlc": "Yes",
@@ -1405,7 +1405,7 @@
     },
 	{
     	"title": "Mario Kart World",
-    	"playtime": "28 hours",
+    	"playtime": "45 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
@@ -1459,12 +1459,12 @@
 	},
     {
     	"title": "Monster Hunter Rise",
-    	"playtime": "125 hours",
-    	"completion": "Unfinished",
+    	"playtime": "230 hours",
+    	"completion": "Finished",
     	"platform": "Switch",
-    	"dlc": "No",
-    	"rating": "6.5/10",
-    	"extra_info": "This game made me realize that I don't enjoy fighting big enemies in games. The monsters also have too much health, and the gameplay becomes very samey even if the monsters have great variety. Still a decently fun game."
+    	"dlc": "Yes",
+    	"rating": "7.5/10",
+    	"extra_info": "The monsters sometimes have too much health, and the gameplay can become very samey even if the monsters have great variety. But if you're able to get into the groove of things, it's quite fun."
     },
     {
     	"title": "Moonlighter",
@@ -1603,7 +1603,7 @@
     },
 	{
     	"title": "Phigros",
-    	"playtime": "95 hours",
+    	"playtime": "100 hours",
     	"completion": "Finished",
     	"platform": "Mobile",
     	"dlc": "N/A",
@@ -2206,8 +2206,8 @@
     },
     {
     	"title": "Super Mario RPG",
-    	"playtime": "36 hours",
-    	"completion": "Finished",
+    	"playtime": "55 hours",
+    	"completion": "100%",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "6.5/10",
