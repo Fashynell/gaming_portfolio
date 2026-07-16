@@ -242,6 +242,15 @@
     	"rating": "6.5/10",
     	"extra_info": "A bloons spin-off game that is a great way to pass time. More than anything, it's just very satisfying to pop all the bloons on the screen."
     },
+	{
+    	"title": "Blue Prince",
+    	"playtime": "38 hours",
+    	"completion": "Unfinished",
+    	"platform": "Switch",
+    	"dlc": "N/A",
+    	"rating": "8/10",
+    	"extra_info": "I never thought a game mixing puzzles and roguelike elements could work, but it's very fun and interesting. Only real complaint is how some things feel too luck dependent sometimes."
+    },
     {
     	"title": "Bomb Chicken",
     	"playtime": "11 hours",
@@ -847,7 +856,7 @@
     },
     {
     	"title": "Geometry Dash",
-    	"playtime": "3210 hours",
+    	"playtime": "3215 hours",
     	"completion": "99%",
     	"platform": "PC & Mobile",
     	"dlc": "N/A",
@@ -1342,12 +1351,12 @@
     },
     {
     	"title": "Mario + Rabbids Kingdom Battle",
-    	"playtime": "155 hours",
+    	"playtime": "190 hours",
     	"completion": "100%",
     	"platform": "Switch",
     	"dlc": "Yes",
     	"rating": "8.5/10",
-    	"extra_info": "This has to be one of the most underrated mario games ever. The combat is really fun and diverse, the characters are funny, and the bosses are really good. I also love how the arenas are tied into the world, unlike in the sequel. 3 playthroughs. I have also 99%ed the DLC, since the last challenges are super hard."
+    	"extra_info": "This has to be one of the most underrated mario games ever. The combat is really fun and diverse, the characters are funny, and the bosses are really good. I also love how the arenas are tied into the world, unlike in the sequel. 4 playthroughs. I have also 99%ed the DLC, since the last challenges are super hard."
     },
     {
     	"title": "Mario + Rabbids Sparks of Hope",
@@ -1405,7 +1414,7 @@
     },
 	{
     	"title": "Mario Kart World",
-    	"playtime": "45 hours",
+    	"playtime": "48 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
@@ -1459,12 +1468,12 @@
 	},
     {
     	"title": "Monster Hunter Rise",
-    	"playtime": "230 hours",
+    	"playtime": "330 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "Yes",
     	"rating": "7.5/10",
-    	"extra_info": "The monsters sometimes have too much health, and the gameplay can become very samey even if the monsters have great variety. But if you're able to get into the groove of things, it's quite fun."
+    	"extra_info": "The monsters sometimes have too much health, and the gameplay can become very samey even if the monsters have great variety. But if you're able to get into the groove of things, it's quite fun. Going for 100% might have been a mistake though."
     },
     {
     	"title": "Moonlighter",
@@ -1693,12 +1702,12 @@
     },
 	{
     	"title": "Postal: Brain Damaged",
-    	"playtime": "5 hours",
-    	"completion": "Unfinished",
+    	"playtime": "23 hours",
+    	"completion": "100%",
     	"platform": "PC",
-    	"dlc": "No",
+    	"dlc": "Yes",
     	"rating": "7/10",
-    	"extra_info": "Very refreshing FPS singleplayer game carried by the humor in weapons, enemies, the world, and stupid story. I love it."
+    	"extra_info": "Very refreshing boomer shooter carried by the humor in weapons, enemies, the world, and the stupid story. I love it."
     },
 	{
     	"title": "Pou",
@@ -1810,7 +1819,7 @@
     },
     {
     	"title": "Roblox",
-    	"playtime": "85 hours",
+    	"playtime": "120 hours",
     	"completion": "N/A",
     	"platform": "PC",
     	"dlc": "N/A",
@@ -2377,12 +2386,12 @@
     },
     {
     	"title": "The Binding of Isaac: Rebirth",
-    	"playtime": "510 hours",
+    	"playtime": "555 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "Yes",
     	"rating": "8.5/10",
-    	"extra_info": "Basically the only rogue-like i manage to enjoy a lot. I got 100% for Afterbirth+, now the Repentance grind begins :)"
+    	"extra_info": "Basically the only rogue-like i manage to enjoy a lot. Currently grinding out dead god."
     },
     {
     	"title": "The End is Nigh",
@@ -2710,12 +2719,12 @@
     },
     {
     	"title": "Xenoblade Chronicles: Definitive Edition",
-    	"playtime": "425 hours",
+    	"playtime": "485 hours",
     	"completion": "99%",
     	"platform": "Switch",
     	"dlc": "Yes",
     	"rating": "9/10",
-    	"extra_info": "Incredible game with peak story, world, music, and characters. My only gripes are that the combat is lacking compared to the rest of the series, there's too many quests, and the story locks about 30% of the explorable areas. 3 playthroughs. I don't have 100% due to 11 simply boring achievements. I have 100%ed the DLC though."
+    	"extra_info": "Incredible game with peak story, world, music, and characters. My only gripes are that the combat is lacking compared to the rest of the series, there's too many quests, and the story locks about 30% of the explorable areas. 4 playthroughs. I don't have 100% due to some simply boring achievements. I have 100%ed the DLC though."
     },
     {
     	"title": "Xenoblade Chronicles X: Definitive Edition",
