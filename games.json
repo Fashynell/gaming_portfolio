@@ -233,6 +233,15 @@
     	"rating": "6.5/10",
     	"extra_info": "Quite a fun but simple clicker game, can't say much more about it."
     },
+	{
+    	"title": "Bloodborne",
+    	"playtime": "55 hours",
+    	"completion": "100%",
+    	"platform": "PS4",
+    	"dlc": "Yes",
+    	"rating": "8/10",
+    	"extra_info": "Bloodborne is a bit polarizing for me. It has the best world exploration of the soulsborne games, but also has some of the worst bosses (except for DLC). The PS4 is barely strong enough to run it, with some bosses or enemy heavy areas causing lag. It is however still a great soulslike."
+    },
     {
     	"title": "Bloons Pop!",
     	"playtime": "50 hours",
@@ -244,8 +253,8 @@
     },
 	{
     	"title": "Blue Prince",
-    	"playtime": "38 hours",
-    	"completion": "Unfinished",
+    	"playtime": "50 hours",
+    	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "8/10",
@@ -379,12 +388,12 @@
     },
     {
     	"title": "Celeste",
-    	"playtime": "360 hours",
+    	"playtime": "405 hours",
     	"completion": "99%",
-    	"platform": "Switch & PC",
+    	"platform": "Switch & PC & PS4",
     	"dlc": "N/A",
     	"rating": "9.5/10",
-    	"extra_info": "Best movement in a platformer game ever. 20+ playthroughs, including multiple challenge runs, and speedruns. Only thing missing from 100% is chapter 9 golden berry."
+    	"extra_info": "Best movement in a platformer game ever. 20+ playthroughs, including multiple challenge runs, and speedruns. I have also started delving into modded maps like strawberry jam. Only thing missing from 100% is chapter 9 golden berry."
     },
     {
     	"title": "Clicker Heroes",
@@ -529,6 +538,15 @@
     	"dlc": "N/A",
     	"rating": "6.5/10",
     	"extra_info": "A 2D cycling game with a bunch of cool characters. You need to do tricks, wheelies, flips, and more to gain boost to go faster."
+    },
+	{
+    	"title": "Cyber Hook",
+    	"playtime": "4 hours",
+    	"completion": "Unfinished",
+    	"platform": "PC",
+    	"dlc": "No",
+    	"rating": "7/10",
+    	"extra_info": "This game has some really good movement with a grapple hook, and i love how fast you can gain insane speed and keep it to zooooom through the levels."
     },
     {
     	"title": "Cytus",
@@ -856,7 +874,7 @@
     },
     {
     	"title": "Geometry Dash",
-    	"playtime": "3215 hours",
+    	"playtime": "3235 hours",
     	"completion": "99%",
     	"platform": "PC & Mobile",
     	"dlc": "N/A",
@@ -1328,8 +1346,8 @@
     	"completion": "99%",
     	"platform": "PC",
     	"dlc": "Yes",
-    	"rating": "8/10",
-    	"extra_info": "Very fun soulslike game. The parrying system and the setting makes the game different enough to feel refreshing. The only problem is how linear it is, even more so than Dark Souls 3. Only missing one dumb achievement for 100%."
+    	"rating": "8.5/10",
+    	"extra_info": "Very fun soulslike game. The parrying system and the setting makes the game different enough to feel refreshing. The only problem is how linear it is, even more so than Dark Souls 3. Only missing one dumb achievement for 100%. 2 playthroughs, including level 10 run."
     },
     {
     	"title": "Lonely Mountains: Downhill",
@@ -1414,7 +1432,7 @@
     },
 	{
     	"title": "Mario Kart World",
-    	"playtime": "48 hours",
+    	"playtime": "75 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "N/A",
@@ -1609,6 +1627,15 @@
     	"dlc": "N/A",
     	"rating": "7.5/10",
     	"extra_info": "I think this game is very solid overall. The story is good, the characters are great, combat is fun, and the music is amazing. I would just prefer if the tartarus sessions were less repetitive and slightly boring."
+    },
+	{
+    	"title": "Persona 5: Dancing in Starlight",
+    	"playtime": "3 hours",
+    	"completion": "Unfinished",
+    	"platform": "PS4",
+    	"dlc": "No",
+    	"rating": "7.5/10",
+    	"extra_info": "Persona 5 already has amazing music and characters, it was literally the perfect decision of Atlus to make rhythm games for the Persona games."
     },
 	{
     	"title": "Phigros",
@@ -1940,7 +1967,7 @@
     	"completion": "99%",
     	"platform": "PC",
     	"dlc": "No",
-    	"rating": "6/10",
+    	"rating": "6.5/10",
     	"extra_info": "Nice speedrunning game, but the leaderboards are ruined due to updates patching bugs. Never got 100% due to needing to have a steam friend who owns the game lol."
     },
     {
@@ -2068,6 +2095,15 @@
     	"dlc": "Yes",
     	"rating": "9/10",
     	"extra_info": "Probably objectively better than Splatoon 2, but some of the maps in this game kinda suck. They also removed Squid beatz 2. 100% in both story modes, but I don't have all weapons or gear."
+    },
+	{
+    	"title": "Splatoon Raiders",
+    	"playtime": "90 hours",
+    	"completion": "99%",
+    	"platform": "Switch",
+    	"dlc": "N/A",
+    	"rating": "8/10",
+    	"extra_info": "As I do love the story modes to the Splatoon games, I'm quite happy with this game. It is however a little too grindy (especially postgame) and it can easily get repetitive."
     },
     {
     	"title": "Spyro: A Hero's Tail",
@@ -2386,7 +2422,7 @@
     },
     {
     	"title": "The Binding of Isaac: Rebirth",
-    	"playtime": "555 hours",
+    	"playtime": "630 hours",
     	"completion": "Finished",
     	"platform": "Switch",
     	"dlc": "Yes",
@@ -2436,7 +2472,7 @@
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "9.5/10",
-    	"extra_info": "Incredible open world exploration, story, and bosses. Demon king? Secret stone?. 3 playthroughs, including ultrahandless run (all shrines), and unfinished depths only run."
+    	"extra_info": "Incredible open world exploration, story, and bosses. Demon king? Secret stone?. 3 playthroughs, including ultrahandless run (all shrines), and depths only run."
     },
     {
     	"title": "The Perfect Tower",
@@ -2602,12 +2638,12 @@
     },
 	{
     	"title": "Triangle Strategy",
-    	"playtime": "4 hours",
+    	"playtime": "9 hours",
     	"completion": "Unfinished",
     	"platform": "Switch",
     	"dlc": "N/A",
     	"rating": "7/10",
-    	"extra_info": "So far this is quite a fun strategy game. The combat is great, but i'm not too fond of the story of music so far."
+    	"extra_info": "So far this is quite a fun strategy game. The combat is great, but i'm not too into of the story or music so far."
     },
     {
     	"title": "Ty the Tasmanian Tiger",
@@ -2737,7 +2773,7 @@
     },
     {
     	"title": "Xenoblade Chronicles 2",
-    	"playtime": "1210 hours",
+    	"playtime": "1415 hours",
     	"completion": "100%",
     	"platform": "Switch",
     	"dlc": "Yes",
