@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = "secret"
 
 game_list = data.load("games.json")
-platform_list = ["Browser", "Gamecube", "Mobile", "PC", "SNES", "Switch", "Wii"]
+platform_list = ["Browser", "Gamecube", "Mobile", "PC", "PS4", "SNES", "Switch", "Wii"]
 group_sort_list = ["Title", "Playtime", "Completion", "Platform", "DLC", "Rating"]
 
 #load the normal version of the website
@@ -19,7 +19,7 @@ def games():
         platform = request.form.get("platform")
         #Update platform
         if platform:
-            selected_platforms = session.get("selected_platforms", ["Browser", "Gamecube", "Mobile", "PC", "SNES", "Switch", "Wii"])
+            selected_platforms = session.get("selected_platforms", ["Browser", "Gamecube", "Mobile", "PC", "PS4", "SNES", "Switch", "Wii"])
             if platform in selected_platforms:
                 selected_platforms.remove(platform)
             else:
@@ -59,7 +59,7 @@ def games():
         return redirect(url_for("games"))
 
     #Receive session values upon reload
-    selected_platforms = session.get("selected_platforms", ["Browser", "Gamecube", "Mobile", "PC", "SNES", "Switch", "Wii"])
+    selected_platforms = session.get("selected_platforms", ["Browser", "Gamecube", "Mobile", "PC", "PS4", "SNES", "Switch", "Wii"])
     group_by = session.get("selected_group")
     sort_by = session.get("selected_sort", "Title")
     group_order = session.get("selected_group_order", "asc")
