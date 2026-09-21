@@ -356,7 +356,8 @@ body {
 .Platform[data-platform="Browser"]  { color: #F4B400; }
 .Platform[data-platform="Gamecube"] { color: #7851A9; }
 .Platform[data-platform="Mobile"]   { color: #34A853; }
-.Platform[data-platform="PC"]       { color: #0078D6; }
+.Platform[data-platform="PC"]       { color: #00FFFF; }
+.Platform[data-platform="PS4"]      { color: #0070CC; }
 .Platform[data-platform="SNES"]     { color: #A2A2A2; }
 .Platform[data-platform="Switch"]   { color: #FF3C28; }
 .Platform[data-platform="Wii"]      { color: #F5F5F5; }
